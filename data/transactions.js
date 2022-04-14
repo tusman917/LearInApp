@@ -3,7 +3,7 @@ const fs = require("fs");
 const path = require("path");
 
 // get all logos from logos directory
-const logos = fs.readdirSync(path.resolve(__dirname, "../public/logos"));
+// const logos = fs.readdirSync(path.resolve(__dirname, "../public/logos"));
 
 const Statuses = {
   Approved: "Approved",
@@ -18,7 +18,7 @@ function makeTransaction(id) {
     date: faker.date.past(2),
     amount: getRandomInt(10000, 1000000),
     status: Math.random() > 0.5 ? Statuses.Approved : Statuses.Pending,
-    logo: `logos/${logos[getRandomInt(0, logos.length)]}`,
+    // logo: `logos/${logos[getRandomInt(0, logos.length)]}`,
   };
 }
 

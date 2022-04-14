@@ -7,7 +7,6 @@ const transactionsData = require("./data/transactions");
 
 const PORT = 9999;
 app.use(cors());
-// app.use(express.static('public'));
 
 /*
 |--------------------------------------------------------------------------
