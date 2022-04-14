@@ -28,6 +28,10 @@ app.get("/personal-learning-budget", (_, res) => {
   res.send(plbData);
 });
 
+app.get("/", (_, res) => {
+  res.send("Welcome to card transactions API!");
+});
+
 /*
 |--------------------------------------------------------------------------
 | Server Listening
