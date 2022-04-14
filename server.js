@@ -5,7 +5,7 @@ const creditCardData = require("./data/creditCard");
 const plbData = require("./data/personalLearningBudget");
 const transactionsData = require("./data/transactions");
 
-const PORT = 9999;
+const PORT = process.env.PORT || 3000;
 app.use(cors());
 
 /*
