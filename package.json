@@ -16,6 +16,9 @@
     "url": "git+https://github.com/learnin-inc/frontend-challenge-server.git"
   },
   "author": "",
+  "engines": {
+    "node": "17.9.0"
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/learnin-inc/frontend-challenge-server/issues"
